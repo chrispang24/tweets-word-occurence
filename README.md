@@ -15,6 +15,7 @@ To use with application code, download, unarchive and store at: /src/2017_01_01/
 
 ```python
 pipenv install
+pipenv shell
 ```
 
 #### Build word count and word search index
@@ -37,8 +38,6 @@ python app/search_word_index.py
 #### Notes
 
 Search word index solution only loads and searches on first JSON file.
-
-'dataset_review.ipynb' used for early exploratory analysis on dataset.
 
 'build_word_count.py' needs to be extended further in future to save Tweet metadata to data store.
 
