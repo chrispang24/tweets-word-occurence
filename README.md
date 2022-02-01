@@ -20,8 +20,8 @@ pipenv shell
 
 #### Build word count and word search index
 
-build_word_count.py: saves word count into 'processed' directory
-build_word_index.py: creates search index at 'search_index_dir' directory
+- build_word_count.py: saves word count into 'processed' directory
+- build_word_index.py: creates search index at 'search_index_dir' directory
 
 ```python
 python app/build_word_count.py
@@ -37,8 +37,8 @@ python app/search_word_index.py
 
 #### Notes
 
-Search word index solution only loads and searches on first JSON file.
+- Search word index solution only loads and searches on first JSON file.
 
-'build_word_count.py' needs to be extended further in future to save Tweet metadata to data store.
+- 'build_word_count.py' needs to be extended further in future to save Tweet metadata to data store.
 
-'search_word_index.py' needs to be extended further in future to use returned Tweet Ids from Search Index search to query into Tweet metadata store and provide aggregations on word count based on segementation attributes like User ID etc.
+- 'search_word_index.py' needs to be extended further in future to use returned Tweet Ids from Search Index search to query into Tweet metadata store and provide aggregations on word count based on segementation attributes like User ID etc.
